@@ -6,8 +6,8 @@ function WeatherData(){
 
     return(
         <>
-        <body className="bg-gray-600">
-        <h1 className="flex text-2xl text-white place-content-center mt-5 font-bold mb-3">Weather App</h1>
+        <body className="bg-gray-600 overflow-hidden">
+        <h1 className="flex text-base sm:text-lg md:text-xl text-white place-content-center mt-5 font-bold mb-3">Weather App</h1>
         <div className="flex flex-col items-center justify-center h-screen ">
             
            
@@ -17,6 +17,7 @@ function WeatherData(){
     
         </div>
         </div>
+     
         </body>
         </>
     )
